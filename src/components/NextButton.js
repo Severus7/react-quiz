@@ -5,7 +5,7 @@ const NextButton = ({ dispatch, answer, index, numQuestions }) => {
     return (
       <button
         className="btn btn-ui"
-        onClick={() => dispatch({ type: "numQuestion" })}
+        onClick={() => dispatch({ type: "nextQuestion" })}
       >
         Next
       </button>
